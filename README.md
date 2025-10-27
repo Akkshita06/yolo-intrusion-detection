@@ -1,20 +1,19 @@
-(A) YOLO Intrusion Detection System:
-An AI-powered real-time intrusion detection system that uses YOLOv8 (You Only Look Once) for object detection to identify human presence in restricted areas.
-When a person is detected within a defined region, the system triggers an alert and captures evidence automatically.
+🧠 AI-Powered Intrusion Detection System
+Even highly secured places—like the Louvre Museum—have faced thefts despite extensive CCTV surveillance. That’s because traditional systems are passive: they record incidents but don’t respond in real time.
+This project aims to transform CCTV systems into active security mechanisms using AI and computer vision.
+By leveraging YOLOv8, OpenCV, and Python, the model detects suspicious or abnormal movements in real time and triggers alerts for potential intrusions.
 
-(B) Features:
-1. Real-time object detection using YOLOv8
-2. Intrusion alert system (visual + audio beep)
-3. Automatic frame saving of intrusion events
-4. Tracks only human (person class) detections
-5. Adjustable restricted zones
-6. Generates annotated output videos
+🚀 Features
+Real-time intrusion and restricted-area detection
+Object tracking using YOLOv8
+Alert system for abnormal activities
+Optimized for live CCTV or recorded video input
 
-(C)Tech Stacks used: 
-Component	        Technology
-Object Detection	YOLOv8 (Ultralytics)
-Programming Language	Python
-Libraries Used  	OpenCV, NumPy, os, time, sys
-Model File	        yolov8n.pt
-Environment	        Local Machine / Jupyter / VS Code
+💡 Inspiration
+Inspired by the Louvre Museum theft, where the painting was stolen despite the presence of cameras — proving that surveillance without intelligence isn’t enough.
 
+🛠️ Tech Stack
+Python
+OpenCV
+YOLOv8
+NumPy
