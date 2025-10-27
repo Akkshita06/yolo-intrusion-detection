@@ -13,7 +13,7 @@ Optimized for live CCTV or recorded video input
 Inspired by the Louvre Museum theft, where the painting was stolen despite the presence of cameras — proving that surveillance without intelligence isn’t enough.
 
 🛠️ Tech Stack
-Python
-OpenCV
-YOLOv8
-NumPy
+Python,
+OpenCV,
+YOLOv8,
+NumPy.
