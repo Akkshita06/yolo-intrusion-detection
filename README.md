@@ -1,19 +1,35 @@
-🧠 AI-Powered Intrusion Detection System
-Even highly secured places—like the Louvre Museum—have faced thefts despite extensive CCTV surveillance. That’s because traditional systems are passive: they record incidents but don’t respond in real time.
-This project aims to transform CCTV systems into active security mechanisms using AI and computer vision.
-By leveraging YOLOv8, OpenCV, and Python, the model detects suspicious or abnormal movements in real time and triggers alerts for potential intrusions.
+# 🧠 AI-Powered Intrusion Detection System 🚨  
+An intelligent surveillance system that detects intrusions and abnormal movements in real time using YOLOv8, OpenCV, and Python.
 
-🚀 Features
-Real-time intrusion and restricted-area detection
-Object tracking using YOLOv8
-Alert system for abnormal activities
-Optimized for live CCTV or recorded video input
+---
 
-💡 Inspiration
-Inspired by the Louvre Museum theft, where the painting was stolen despite the presence of cameras — proving that surveillance without intelligence isn’t enough.
+## 🚀 Overview
+Traditional CCTV systems record incidents but fail to act in real time.  
+This project transforms surveillance cameras into **active security mechanisms** capable of detecting unauthorized entries or abnormal activity and triggering alerts instantly.
 
-🛠️ Tech Stack
-Python,
-OpenCV,
-YOLOv8,
-NumPy.
+Built with **YOLOv8**, **OpenCV**, and **NumPy**, this system performs live object detection and restricted-area monitoring for smart, AI-driven security.
+
+---
+
+## ✨ Features
+- 🚨 Real-time intrusion and restricted-area detection  
+- 🧭 Object tracking and movement monitoring using YOLOv8  
+- 🔔 Instant alert generation for abnormal activities  
+- 🎥 Works with both live CCTV feeds and recorded video  
+- ⚡ Optimized for fast and accurate detection  
+
+---
+
+## 💡 Inspiration
+Inspired by the **Louvre Museum theft**, where art was stolen despite camera coverage — proving that surveillance without intelligence isn’t enough.  
+This project aims to bridge that gap by combining **AI** and **computer vision** for real-time, actionable surveillance.
+
+---
+
+## 🛠️ Tech Stack
+- **Language:** Python  
+- **Libraries:** OpenCV, NumPy, Ultralytics YOLOv8  
+- **Framework:** PyTorch  
+- **Hardware:** Webcam / CCTV video source  
+
+---
